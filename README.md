@@ -1,4 +1,4 @@
-# an example of numerical gradient check
+# Numerical gradient check in action
 
 ### STEP 0: get data 
 ```
