@@ -1,6 +1,9 @@
-# an example of numerical gradient check
+# Numerical gradient check in action
 
-### STEP 0: get data `./get_data.sh`
+### STEP 0: get data 
+```
+./get_data.sh
+```
 
 A. MNIST classifier
 ```
@@ -24,7 +27,7 @@ iter   6000, loss = 251.52, gradcheck err 0.000000002 OK
 iter   7000, loss = 239.43, gradcheck err 0.000000003 OK
 ```
 
-<img src="ae.gif" />
+<img src="AE.gif" width=100 />
 
 `do_gradcheck` is set, all computation will be performed in float64
 
