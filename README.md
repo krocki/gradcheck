@@ -12,7 +12,7 @@ B. Autoencoder
 python3 ae.py
 ```
 
-<img src="ae.gif" />
+<img src="AE.gif" width=100 />
 
 `do_gradcheck` is set, all computation will be performed in float64
 
