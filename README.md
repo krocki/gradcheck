@@ -12,6 +12,18 @@ B. Autoencoder
 python3 ae.py
 ```
 
+This is good, the err between numerical and analytical gradient is less than 1e-8.
+
+```
+iter   1000, loss = 422.25, gradcheck err 0.000000004 OK
+iter   2000, loss = 335.09, gradcheck err 0.000000006 OK
+iter   3000, loss = 395.82, gradcheck err 0.000000005 OK
+iter   4000, loss = 307.89, gradcheck err 0.000000003 OK
+iter   5000, loss = 291.37, gradcheck err 0.000000005 OK
+iter   6000, loss = 251.52, gradcheck err 0.000000002 OK
+iter   7000, loss = 239.43, gradcheck err 0.000000003 OK
+```
+
 <img src="ae.gif" />
 
 `do_gradcheck` is set, all computation will be performed in float64
