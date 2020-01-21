@@ -1,6 +1,9 @@
 # an example of numerical gradient check
 
-### STEP 0: get data `./get_data.sh`
+### STEP 0: get data 
+```
+./get_data.sh
+```
 
 A. MNIST classifier
 ```
